@@ -6,7 +6,7 @@ import DistributionChart from './components/DistributionChart'
 
 // In development this falls back to localhost.
 // Set VITE_API_URL in your Vercel/Netlify environment variables to your deployed backend URL.
-const API = import.meta.env.VITE_API_URL ?? 'http://127.0.0.1:8000'
+const API = 'https://retirement-monte-carlo-simulator.onrender.com'
 
 function fmt(n, decimals = 1) {
   return n?.toFixed(decimals) ?? '—'
